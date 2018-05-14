@@ -8,8 +8,10 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 The article will be available at the following address once it is published.
 
 For access to the source code, see files with .R extension:
-
-##<b>1-Code_stats_models_Case_A.R </b><br/> 
+<b>1-Code_stats_models_Case_A.R </b><br/> 
+```
+code blocks for commands
+```
 <b>2-Code_stats_models_Case_B.R </b><br/>
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
 
