@@ -1,11 +1,13 @@
-# Data and code for the Xylella fastidiosa study
+# Data and code for the Xylella fastidiosa remote sensing study
 # Nature-Plants-2018
 
 This repository contains code needed to reproduce the article:
 
 Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A., Pre-visual Xylella fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)
 
+The article will be available at the following address once it is published
 
+similar to:
 Find the article [HERE](http://quantalab.ias.csic.es/)
 
 For access to the source code, see file with .R extension:
