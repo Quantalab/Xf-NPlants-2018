@@ -8,24 +8,26 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 The article will be available at the following address once it is published.
 
 For access to the source codes, see files with .R extension:</b>
+
 <b>1-Code_stats_models_Case_A.R </b>
 <br/> 
-
 ```
-This code reproduces the confusion matrix for the supplementary Table 4.
+This code reproduces the confusion matrix of the supplementary Table 4.
 ```
 
 <b>2-Code_stats_models_Case_B.R </b><br/>
 
 ```
-This code reproduces the confusion matrix for the supplementary Table 5.
+This code reproduces the confusion matrix of the supplementary Table 5.
 ```
 
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
 
 ```
-This code reproduces the confusion matrix for the field evaluation and remote sensing predictions vs qPCR tests
-at parcel (Figure 5) and orchard level (table 6).
+This code reproduces the confusion matrix between the field evaluation and remote sensing predictions 
+vs qPCR tests at two spatial scales:
+ - At parcel level (Figure 5).
+ - At orchard level (table 6).
 ```
 
 For access to the raw data, see data folder
