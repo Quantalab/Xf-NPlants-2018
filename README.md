@@ -3,7 +3,7 @@
 
 This repository contains code needed to reproduce the article:
 
-Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A., <b>Pre-visual <i>Xylella </i> fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
+Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A., <b>Pre-visual <i>Xylella</i> fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
 
 The article will be available at the following address once it is published.
 
