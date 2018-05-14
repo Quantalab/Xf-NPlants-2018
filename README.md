@@ -1,4 +1,5 @@
-# Data-and-code-for-the-Xylella-fastidiosa-study---Nature-Plants-2018
+# Data and code for the Xylella fastidiosa study
+# Nature-Plants-2018
 
 This repository contains code needed to reproduce the article:
 
