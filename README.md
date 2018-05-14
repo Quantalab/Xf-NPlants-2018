@@ -12,19 +12,19 @@ For access to the source codes, see files with .R extension:</b>
 <b>Analysis1.R </b>
 <br/> 
 ```
-This code reproduces the confusion matrix of the supplementary Table 4.
+The code reproduces the confusion matrix of the supplementary Table 4.
 ```
 
 <b>Analysis2.R </b><br/>
 
 ```
-This code reproduces the confusion matrix of the supplementary Table 5.
+The code reproduces the confusion matrix of the supplementary Table 5.
 ```
 
 <b>Analysis3.R </b><br/>
 
 ```
-This code reproduces the confusion matrix between the field evaluation and remote sensing predictions 
+The code reproduces the confusion matrix between the field evaluation and remote sensing predictions 
 vs qPCR tests at two spatial scales:
  - At parcel level (Figure 5).
  - At orchard level (table 6).
