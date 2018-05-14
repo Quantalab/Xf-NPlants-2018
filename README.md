@@ -24,7 +24,8 @@ This code reproduces the confusion matrix for the supplementary Table 5.
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
 
 ```
-This code reproduces the confusion matrix for the field evaluation and remote sensing predictions vs qPCR tests <br/> at parcel and orchard level.
+This code reproduces the confusion matrix for the field evaluation and remote sensing predictions vs qPCR tests
+at parcel (Figure 5) and orchard level (table 6).
 ```
 
 For access to the raw data, see data folder
