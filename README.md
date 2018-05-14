@@ -9,19 +9,19 @@ The article will be available at the following address once it is published.
 
 For access to the source codes, see files with .R extension:</b>
 
-<b>1-Code_stats_models_Case_A.R </b>
+<b>Analysis1.R </b>
 <br/> 
 ```
 This code reproduces the confusion matrix of the supplementary Table 4.
 ```
 
-<b>2-Code_stats_models_Case_B.R </b><br/>
+<b>Analysis2.R </b><br/>
 
 ```
 This code reproduces the confusion matrix of the supplementary Table 5.
 ```
 
-<b>3-Code_stats_models_vs_qPCR.R </b><br/>
+<b>Analysis3.R </b><br/>
 
 ```
 This code reproduces the confusion matrix between the field evaluation and remote sensing predictions 
