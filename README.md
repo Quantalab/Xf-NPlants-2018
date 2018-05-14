@@ -8,13 +8,14 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 The article will be available at the following address once it is published
 
 similar to:
-Find the article [HERE](http://quantalab.ias.csic.es/)
+
+<br> Find the article [HERE](http://quantalab.ias.csic.es/)</br>
 
 For access to the source code, see file with .R extension:
 
-1-Code_stats_models_Case_A.R 
-2-Code_stats_models_Case_B.R
-3-Code_stats_models_vs_qPCR.R
+<br>1-Code_stats_models_Case_A.R </br> 
+<br>2-Code_stats_models_Case_B.R </br>
+<br>3-Code_stats_models_vs_qPCR.R </br>
 
 For access to the raw data, see data folder
 
