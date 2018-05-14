@@ -10,7 +10,7 @@ The article will be available at the following address once it is published.
 For access to the source code, see files with .R extension:
 
 1-Code_stats_models_Case_A.R <br/> 
-2-Code_stats_models_Case_B.R <br/>>
+2-Code_stats_models_Case_B.R <br/>
 3-Code_stats_models_vs_qPCR.R <br/>
 
 For access to the raw data, see data folder
