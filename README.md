@@ -8,9 +8,10 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 The article will be available at the following address once it is published.
 
 For access to the source code, see files with .R extension:
-<b>1-Code_stats_models_Case_A.R </b><br/> 
+<b>1-Code_stats_models_Case_A.R </b>
+<br/> 
 ```
-code blocks for commands
+This code is reprodcued similar statistica values as  Supplementary Table 4. Accuracy of the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA) to distinguish among disease severity (DS) classes of olive quick decline syndrome caused by Xylella fastidiosa for assessing the separation of asymptomatic (AS) vs. symptomatic trees (AF; affected) using flux-based traits fluorescence and temperature (PSFT), pigment- and structure-based Functional Traits (PS) and RGB-NIR indices (SVI) plant trait pools.
 ```
 <b>2-Code_stats_models_Case_B.R </b><br/>
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
