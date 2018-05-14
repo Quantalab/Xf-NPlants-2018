@@ -9,12 +9,7 @@ The article will be available at the following address once it is published.
 
 For access to the source code, see files with .R extension:
 
-###<b>1-Code_stats_models_Case_A.R </b><br/> 
-## Test 
-   <a name="Test"></a><a name="1.1"></a>
-   - **Abstract**
-    - Test 123
-    - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
+##<b>1-Code_stats_models_Case_A.R </b><br/> 
 <b>2-Code_stats_models_Case_B.R </b><br/>
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
 
