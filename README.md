@@ -8,9 +8,13 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 Find the article [HERE](http://quantalab.ias.csic.es/)
 
-For access to the source code, see Analysis.R file or source code
+For access to the source code, see file with .R extension:
 
-For access to the raw data, see data folder or raw data
+1-Code_stats_models_Case_A.R 
+2-Code_stats_models_Case_B.R
+3-Code_stats_models_vs_qPCR.R
+
+For access to the raw data, see data folder
 
 Contact  pablo.zarco@csic.es for any further information.
 
