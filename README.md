@@ -16,7 +16,16 @@ This code reproduce similar statistical values as supplementary Table 4.
 ```
 
 <b>2-Code_stats_models_Case_B.R </b><br/>
+
+```
+This code reproduce similar statistical values as supplementary Table 5.
+```
+
 <b>3-Code_stats_models_vs_qPCR.R </b><br/>
+
+```
+This code reproduce the confusion matrix for the Field evaluation, qPCR tests and remote sensing spatial predictions at parcel and orchad level.
+```
 
 For access to the raw data, see data folder
 
