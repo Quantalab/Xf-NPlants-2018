@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/92111648.svg)](https://zenodo.org/badge/latestdoi/92111648)
-
 
 # Data for the <i>Xylella fastidiosa</i> remote sensing study
 ### Nature Plants 2018 
