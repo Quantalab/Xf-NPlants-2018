@@ -14,7 +14,7 @@ ___
 The codes and data provided in the repository are the following:
  
 | File | Download | Descripcion |
-| ------------- |:-------------| -----|
+| ------------- |:-----------------| -----|
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
 | **.csv** | [Raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data) | Tables used in the <i>Xylella fastidiosa</i> remote sensing study|
 | **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-5)| The Confusion Matrix, data sets, machine learning algorithms, parameter tuning and predictions|
