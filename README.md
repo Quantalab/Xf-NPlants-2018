@@ -7,7 +7,7 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 The article will be available at the following address once it is published.
 
-For access to the source codes, see files with .R extension placed on [codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) folder :</b>
+For access to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
 
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
@@ -35,7 +35,7 @@ vs qPCR tests at two spatial scales:
  - At orchard level (table 6).
 ```
 
-For access to the raw data, see data folder
+For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
 
 Contact  pablo.zarco@csic.es for any further information.
 
