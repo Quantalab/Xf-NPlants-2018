@@ -23,8 +23,8 @@ if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC
 # set workspace
 
 setwd ("choose a directory ...")
-path_data<-("Data/")
-path_out<-("out/")
+path_data<-("data/")
+path_out<-("out/") ### choose a directory ...
 
 ###############################################################################
 ###  CASE B : Sympt. (1) Sympt. (1) (2-3-4) ### SEV_B
@@ -53,7 +53,7 @@ cases_var<-c("SEV_A","SEV_B")
 ######################
 
 # 2. VIF analysis -------------------------------------------------------
-source("vif_function.R")
+source("codes/vif_function.R")
 ### Spectral indices 
 pred_ind<-names(data.training[,5:74]) ##
 pred_ind_rtm<-c(names(data.training[,5:74]),'Cab','Car','Ant','LAI','LIDFa','Fi') ### inputs from RTM inversion
