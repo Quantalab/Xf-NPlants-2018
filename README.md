@@ -62,7 +62,6 @@ vs qPCR tests at two spatial scales:
 A VIF function for stepwise variable selection.
 
 ```
-[original code from](https://beckmw.wordpress.com/2013/02/05/collinearity-and-stepwise-vif-selection/)
 ### Raw data
 
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
