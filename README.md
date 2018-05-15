@@ -6,7 +6,7 @@ This repository contains code needed to reproduce the article:
 Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A., <b>Pre-visual <i>Xylella</i> fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
 
 The article will be available at the following address once it is published.
-
+___
 
 ### Instructions
 
@@ -70,7 +70,7 @@ Prior to running the .RData (as executable file)  you need to install R sofware.
 ```
 C:/Data_NaturePlants
 ```
-Once the .RData file is executed, type the following bold commands to see the following:
+Once the .RData file is executed,The R ssesion will be opened it type li()the following  commands to see the following:
 ````
 i.e: type "results_train" to see the Confusion Matrix of trainning data set
 ````
