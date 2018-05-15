@@ -27,9 +27,9 @@ To recreate the results, run the commands with the .R extension placed on the [c
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
 ```
-The code reproduces the confusion matrix of the supplementary Table 4. For that purpose, the code splits the data set
-(training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the classification and machine learning
-algorithms described in the article.
+The code reproduces the confusion matrix of the supplementary Table 4. For that purpose, the code splits the data 
+set (training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the classification and machine
+learning algorithms described in the article.
 
 This code is valids for the Case A: asymptomatic (AS) vs. symptomatic trees (AF; affected)
 ```
