@@ -22,7 +22,7 @@ if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC
 #########################
 # set workspace
 
-setwd ("choose a directory ...")
+setwd ("choose a directory ...") # this is optional !!! 
 path_data<-("data/")
 path_out<-("out/") ### choose a directory ...
 
@@ -31,7 +31,7 @@ path_out<-("out/") ### choose a directory ...
 ###############################################################################
 ###############################################################################
 
-data <-read.table("Data/1-Data_Global_model_Xf.csv", header=T, sep=",")
+data <-read.table("data/1-Data_Global_model_Xf.csv", header=T, sep=",")
 data<-subset(data,SEV_B >=1)
 attach(data)
 data$SEV_B[SEV == 1  ] <- 1
@@ -169,9 +169,9 @@ for (k in c(1:3)){
   
   ################################
   ######################
-  # 3.2 NNE Model  -------------------------------------------------------
+  # 3.2 NN Model  -------------------------------------------------------
 
-  print(paste('NNE for ',names_to_include[[k]],sep=""))
+  print(paste('NN for ',names_to_include[[k]],sep=""))
   nnet.grid <- expand.grid(.decay = seq(0,0.1,by=0.01), .size = seq(1,10,by=1))
   nnet.fit <- train(fmla, data = dataset,method = "nnet", maxit = 50, tuneGrid = nnet.grid) 
   size<-getElement(nnet.fit,"bestTune")$size
