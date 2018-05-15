@@ -22,7 +22,7 @@ if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC
 #########################
 # set workspace
 
-setwd ("choose a directory ...")
+setwd ("choose a directory ...") ## this is optional !
 path_data<-("data/")
 path_out<-("out/") ### choose a directory ...
 
@@ -36,7 +36,7 @@ code_dataset<-c('2-Data_Parcel_with_qPCR.csv','3-Data_Orchard_with_qPCR.csv')
 ###choose a data set (1 or 2) in the vector code_dataset -->
 xi<- 2 # 1 is 2-Data_Parcel_with_qPCR.csv and 2 is 3-Data_Orchard_with_qPCR.csv
 ######### code_dataset: (1 is the data set one and 2 is the data set two)
-data <-read.table(paste('Code-Quantalab_v2/Data/',code_dataset[xi],sep=''), header=T, sep=",")
+data <-read.table(paste('data/',code_dataset[xi],sep=''), header=T, sep=",")
 
 model_PSFT_global<-c("Cab","Car","Ant","LAI","LIDFa", "Fi","CWSIv",
                      "T_O","NPQI","VOG2","DCABXC","CRI700M","PRIM1","PRIM4","PRIN","PRI_CI","BF1","BF2","CUR","FLD2")
