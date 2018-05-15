@@ -27,12 +27,16 @@ To recreate the results, run the commands with the .R extension placed on the [c
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
 ```
-The code reproduces the confusion matrix of the supplementary Table 4.
+The code reproduces the confusion matrix of the supplementary Table 4. For that purpose, the code splits the data set (training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the classification and machine learning algorithms described in the article.
+
+This code is valids for the Case A: asymptomatic (AS) vs. symptomatic trees (AF; affected), and (ii) Case B: Initial Xf-symptoms (IN, DS=1) vs. advanced Xf-symptoms (AD, DS = 2, 3, and 4) severity levels. 
 ```
 <b>[Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) </b><br/>
 
 ```
-The code reproduces the confusion matrix of the supplementary Table 5.
+The code reproduces the confusion matrix of the supplementary Table 5. Similar to previous R code, the code splits the data set (training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the classification and machine learning algorithms described in the article.
+
+This code is valids for the Case B: Initial Xf-symptoms (IN, DS=1) vs. advanced Xf-symptoms (AD, DS = 2, 3, and 4) severity levels. 
 ```
 <b>Note:</b> Codes [Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) and [Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) reproduce the article spliting the data into two data sets:
 <br>
@@ -56,6 +60,10 @@ The code reproduces the confusion matrix between the field evaluation and remote
 vs qPCR tests at two spatial scales:
  - At parcel level (Figure 5).
  - At orchard level (table 6).
+ 
+The code generates 50 non-linear SVM classification models using a radial basis function and 
+leave one out cross validation (LOOCV), Then the model generates a stochastic gradient boosting machine
+to test the remote sensing-based PSFT model at parcel and orchard level. 
 ```
 <b>[ VIF-function-R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/vif_function.r)</b><br/>
 ```
