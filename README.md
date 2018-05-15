@@ -68,8 +68,8 @@ vs qPCR tests at two spatial scales:
  - At orchard level (table 6).
  
 The code generates 50 non-linear SVM classification models using a radial basis function and leave one out cross 
-validation (LOOCV), Then the model generates a stochastic gradient boosting machineto test the remote sensing-based
-PSFT model at parcel and orchard level. 
+validation (LOOCV). Then, the codes used the SVM predictions to generates a stochastic gradient boosting machine to 
+test the remote sensing-based PSFT model at parcel and orchard level. 
 ```
 <b>[ VIF-function-R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/vif_function.r)</b><br/>
 ```
