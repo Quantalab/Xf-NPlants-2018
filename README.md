@@ -64,8 +64,13 @@ C:/Data_NaturePlants
 The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files contains the confusion matrix of each classification and machine learning algorithms.
 
 
-The structure of each .RData is:
-General setting  and  basic parameter tunning 
+Once the .RData file is executed, type the following bold commands to see the following:
+ 
+````
+i.e: type "results_train" to see the Confusion Matrix of trainning data set
+
+````
+General setting (Data):
  
 ````
 dataset --> "train data"
@@ -74,8 +79,7 @@ dataset_test --> "test data set"
 predictors --> "Inputs of each model
 
 ````
-
-Classification and machine learning algorithms
+Classification and machine learning algorithms:
 
 ````
 The basic parameter tunning for the support vector machine (SVM)
@@ -102,12 +106,12 @@ fitControl --> "Base parameter tunning"
 model_lda --> "linear discriminant analysis  (LDA)"
 
 ````
-Confusion Matrix
+Confusion Matrix:
 ````
 results_train --> "Confusion Matrix and Statistics for training data set"
 results_test  --> "Confusion Matrix and Statistics for testing data set"
-fitControl --> "Base parameter tunning"
 ````
+
 
 
 ### Contact information
