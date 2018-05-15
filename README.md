@@ -16,8 +16,8 @@ The codes and data provided in the repository are the following:
 | File | Download | Descripcion |
 | ------------- |:-------------| -----|
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
-| **.csv** | [Data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data) | Tables used in the <i>Xylella fastidiosa</i> remote sensing study|
-| **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
+| **.csv** | [Data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data) | Tables used in the <i>Xylella fastidiosa</i> remote sensing study|
+| **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 ___
@@ -82,12 +82,12 @@ ___
 
 ### Raw data
 
-For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
+For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data):</b>
 ___
 
 ### .RData Files
 
-In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table-4 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table-5 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) respectively. 
+In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table-4 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-4) and [Table-5 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-5) respectively. 
 
 The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. The files also save the main functions and the parameter tuning performed during the classification methods. In addition, the data sets (training and test data), the model predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
