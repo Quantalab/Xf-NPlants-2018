@@ -55,14 +55,13 @@ For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NP
 
 The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. This files also save the function and tune parameters performed during classification methods. In addtion, the predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
-As consecuence of the random selection procedure of data, In order to reproduce exactly the statistical accuracy yielded in Table 4 and Table 5, You will need to use the following .RData files for [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4). 
-
-The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files conteins the confusion matrix of each classification and machine learning algorithms.
+As consecuence of the random selection procedure of the data (train and test data), in order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5. You will need to use the following .RData files for [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4). 
 
 Prior to running the .RData (as executable file)  you need to install R sofware. Next,download the file and put it in the following path:
 ```
 C:/Data_NaturePlants
 ```
+The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files conteins the confusion matrix of each classification and machine learning algorithms.
 ### Contact information
 
 Contact  pablo.zarco@csic.es for any further information.
