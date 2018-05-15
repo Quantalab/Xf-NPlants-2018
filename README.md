@@ -143,6 +143,6 @@ ___
 
 Contact pablo.zarco@ec.europa.eu for any further information.
 
-This repository follows the principles of reproducible research (Peng, 2011).
+This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
 
 When using the [raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data), please cite the original publication.
