@@ -59,7 +59,7 @@ vs qPCR tests at two spatial scales:
 ```
 <b>[ VIF-function-R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/vif_function.r)</b><br/>
 ```
-The code is a function for stepwise variable selection calculating the variance inflation factor (VIF) from a linear model.
+The function for stepwise variable selection calculating the variance inflation factor (VIF) from linear model.
 ```
 ### Raw data
 
