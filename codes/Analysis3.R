@@ -23,8 +23,8 @@ if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC
 # set workspace
 
 setwd ("choose a directory ...")
-path_data<-("Data/")
-path_out<-("out/")
+path_data<-("data/")
+path_out<-("out/") ### choose a directory ...
 
 #################################
 ####
@@ -33,9 +33,10 @@ path_out<-("out/")
 ### data set two --> 3-Data_Orchard_with_qPCR.csv (at orchard level)
 code_dataset<-c('2-Data_Parcel_with_qPCR.csv','3-Data_Orchard_with_qPCR.csv')
 
-###choose a data set in the vector code_dataset -->
+###choose a data set (1 or 2) in the vector code_dataset -->
+xi<- 2 # 1 is 2-Data_Parcel_with_qPCR.csv and 2 is 3-Data_Orchard_with_qPCR.csv
 ######### code_dataset: (1 is the data set one and 2 is the data set two)
-data <-read.table(paste('Code-Quantalab_v2/Data/',code_dataset[2],sep=''), header=T, sep=",")
+data <-read.table(paste('Code-Quantalab_v2/Data/',code_dataset[xi],sep=''), header=T, sep=",")
 
 model_PSFT_global<-c("Cab","Car","Ant","LAI","LIDFa", "Fi","CWSIv",
                      "T_O","NPQI","VOG2","DCABXC","CRI700M","PRIM1","PRIM4","PRIN","PRI_CI","BF1","BF2","CUR","FLD2")
@@ -50,7 +51,6 @@ names_to_include<-c("model PSFT")
 # 2. set statistical parameters -------------------------------------------------------
 
 set.seed(100)
-
 #fitControl <- trainControl(method = "cv",number = 10,savePredictions = 'final',classProbs = T)
 fitControl2 <- trainControl(method = "LOOCV",number = 10,savePredictions = 'final',classProbs = T,sampling = "down")
 fmla <- as.formula(paste("SEV ~ ", paste(Vector_to_include[[k]], collapse= "+")))
