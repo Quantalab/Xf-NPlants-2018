@@ -66,15 +66,17 @@ For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NP
 
 In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table-4 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table-5 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) respectively. 
 
-The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. This files also save the main functions and the parameter tuning performed during classification methods. In addtion, the two split data sets (train and test data), the predictions, the model configuration and the confusion matrix is also stored in the .RData files.
+The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. The files also save the main functions and the parameter tuning performed during the classification methods. In addtion, the two split data sets (train and test data), the model predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
-Prior to running the .RData (as executable file)  you need to install R sofware. Next,download the file and put it in the following path:
+Prior to running the .RData (as executable file)  you need to install R sofware. Next, download the file and put it in the following path:
 ```
-C:/Data_NaturePlants
+C:/Data_NaturePlants (reccommended)
 ```
-Once the .RData file is executed,The R ssesion will be opened it type li()the following  commands to see the following:
+Once the .RData file is executed,The R session will be opened it, Then type ls() to see the objects included in the selected .RData file. The next step is type the name of listed objects as follow:
+
 ````
 i.e: type "results_train" to see the Confusion Matrix of trainning data set
+i.e: type "fitControl" to see the parameter tuning for this
 ````
 General setting (Data):
 ````
@@ -85,12 +87,12 @@ predictors --> "Inputs of each model
 Classification and machine learning algorithms:
 ````
 The basic parameter tuning for the support vector machine (SVM)
-fitControl --> "Base parameter tuning"
+fitControl --> "Base parameter tuning" 
 tobj -->  "The generic function tunes hyperparameters of statistical methods using a specific grid" 
 gg --> "gamma parameter needed for all kernels" 
 cc --> "cost of constraints violation"
 fitControl --> "Base parameter tuning"
-model_svm  --> "Support vector machine (SVM)"
+model_svm  --> "The SVM model"
 
 The basic parameter tuning for the Neural network (NN) with the best tune parameters for 500 iterations
 
@@ -100,17 +102,17 @@ size  --> "The parameter tuning size"
 data.nnet <-- "Fit single-hidden-layer neural network, possibly with skip-layer connections"
 best.value  --> "Best parameter tuning of 500 iterations"
 aux.nnet  --> "aux.nnet of 500 iterations"
-data.nnet --> "Neural network (NN)"
+data.nnet --> "TThe NN model"
 
 The basic parameter tuning for linear discriminant analysis (LDA)
 
-fitControl --> "Base parameter tuning"
-model_lda --> "linear discriminant analysis  (LDA)"
+fitControl --> "Base parameter tuning" (only for SVM and LDA)
+model_lda --> "The LDA model"
 ````
 Confusion Matrix:
 ````
-results_train --> "Confusion Matrix and Statistics for training data set"
-results_test  --> "Confusion Matrix and Statistics for testing data set"
+results_train --> "Confusion Matrix and statistics for training data set"
+results_test  --> "Confusion Matrix and statistics for testing data set"
 ````
 
 ### Contact information
