@@ -1,5 +1,5 @@
 # Codes and data for the <i>Xylella</i> fastidiosa remote sensing study
-## Nature Plants 2018
+## <font color="green">Nature Plants 2018 </font>
 
 This repository contains code needed to reproduce the article:
 
