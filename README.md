@@ -7,11 +7,11 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 The article will be available at the following address once it is published.
 
-Colons can be used to align columns.
 
-| Tables        | Are           | Cool  |
+
+| Files        | folder           | Type  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| .RData   | Table_4 | Basic parameter tuning for each classification and machine learning algorithms annd Confusion Matrix for Table 4  |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
@@ -64,7 +64,7 @@ For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NP
 
 As consecuence of the random selection procedure of the data (train and test data), in order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5. You will need to use the following .RData files for [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4). 
 
-The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. This files also save the main functions and the parameter tunning performed during classification methods. In addtion, the two split data sets (train and test data), the predictions, the model configuration and the confusion matrix is also stored in the .RData files.
+The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. This files also save the main functions and the parameter tuning performed during classification methods. In addtion, the two split data sets (train and test data), the predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
 Prior to running the .RData (as executable file)  you need to install R sofware. Next,download the file and put it in the following path:
 ```
@@ -88,27 +88,27 @@ predictors --> "Inputs of each model
 Classification and machine learning algorithms:
 
 ````
-The basic parameter tunning for the support vector machine (SVM)
-fitControl --> "Base parameter tunning"
+The basic parameter tuning for the support vector machine (SVM)
+fitControl --> "Base parameter tuning"
 tobj -->  "The generic function tunes hyperparameters of statistical methods using a specific grid" 
 gg --> "gamma parameter needed for all kernels" 
 cc --> "cost of constraints violation"
-fitControl --> "Base parameter tunning"
+fitControl --> "Base parameter tuning"
 model_svm  --> "Support vector machine (SVM)"
 
-The basic parameter tunning for For the Neural network (NN) with the best tune parameters for 500 iterations
+The basic parameter tuning for For the Neural network (NN) with the best tune parameters for 500 iterations
 
 nnet.grid --> "The parameter tuning grid"
 nnet.fit  --> "The parameter tuning fit"
 size  --> "The parameter tuning size"
 data.nnet <-- "Fit single-hidden-layer neural network, possibly with skip-layer connections"
-best.value  --> "Best parameter tunning of 500 iterations"
+best.value  --> "Best parameter tuning of 500 iterations"
 aux.nnet  --> "aux.nnet of 500 iterations"
 data.nnet --> "Neural network (NN)"
 
-The basic parameter tunning for linear discriminant analysis (LDA)
+The basic parameter tuning for linear discriminant analysis (LDA)
 
-fitControl --> "Base parameter tunning"
+fitControl --> "Base parameter tuning"
 model_lda --> "linear discriminant analysis  (LDA)"
 ````
 Confusion Matrix:
