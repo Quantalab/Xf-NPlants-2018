@@ -20,7 +20,7 @@ The codes and data provided in the repository are composed by three types of fil
 
 ### .R Files
 
-To recreate the results, run the commands with the .R extension placed on the [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this, download the complete repository, and then open an R session with working directory set to the root of the project.
+To recreate the results, run the commands with the .R extension placed on the [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this, download the repository, and then open an R session with working directory set to the root of the project.
 
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
@@ -38,7 +38,9 @@ The code reproduces the confusion matrix of the supplementary Table 5.
 
  - 90% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
  
- - All analyses were done in [R](https://cran.r-project.org/). Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. On the codes the procedure to install packages is indicated. To install, open R and execute the following line of code:
+ - All analyses were done in [R](https://cran.r-project.org/). Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. On each codes, the procedure to install packages is indicated. 
+ </br>
+ To install, open R session and execute the following line of code:
  ```
  if (!require("fmsb")) { install.packages("fmsb"); require("fmsb") }  ### VIF analysis
 if (!require("klaR")) { install.packages("klaR"); require("klaR") }  ###Wilks.lambda
