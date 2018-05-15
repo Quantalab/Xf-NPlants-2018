@@ -20,6 +20,11 @@ The code reproduces the confusion matrix of the supplementary Table 4.
 ```
 The code reproduces the confusion matrix of the supplementary Table 5.
 ```
+### Note: Codes [Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) and [Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R)reproduce the article spliting the data into two data sets:
+
+ - 80% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 20% for testing  the model.
+
+ - 90% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
 
 <b>[Analysis3.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis3.R)</b><br/>
 
