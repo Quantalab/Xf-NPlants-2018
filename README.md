@@ -7,6 +7,8 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 The article will be available at the following address once it is published.
 
+## Instructions
+
 For access to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
 
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
@@ -25,7 +27,16 @@ The code reproduces the confusion matrix of the supplementary Table 5.
  - 80% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 20% for testing  the model.
 
  - 90% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
-
+ 
+ - All analyses were done in [R](https://cran.r-project.org/). Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. In the codes the procedure syntaxis to install packages is indicated. To install, open R and execute the following line of code:
+ ```
+ if (!require("fmsb")) { install.packages("fmsb"); require("fmsb") }  ### VIF analysis
+if (!require("klaR")) { install.packages("klaR"); require("klaR") }  ###Wilks.lambda
+if (!require("caret")) { install.packages("caret"); require("caret") }  ###  Partition dataset and model LDA
+if (!require("e1071")) { install.packages("e1071"); require("e1071") }  ### SVM model
+if (!require("nnet")) { install.packages("nnet"); require("nnet") }  ### NNE model
+if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC analysis
+```
 <b>[Analysis3.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis3.R)</b><br/>
 
 ```
@@ -36,6 +47,10 @@ vs qPCR tests at two spatial scales:
 ```
 
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
+
+
+As consecuence of the To reporoduct exactly the Table 4 and Table 5 use the following .RData to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
+
 
 Contact  pablo.zarco@csic.es for any further information.
 
