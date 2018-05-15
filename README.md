@@ -62,7 +62,7 @@ For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NP
 
 ### .RData Files
 
-As consecuence of the random selection procedure of the data (train and test data), in order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5. You will need to use the following .RData files for [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4). 
+In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) respectively. 
 
 The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. This files also save the main functions and the parameter tuning performed during classification methods. In addtion, the two split data sets (train and test data), the predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
