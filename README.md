@@ -11,9 +11,9 @@ The article will be available at the following address once it is published.
 
 | Files        | folder           | Type  |
 | ------------- |:-------------:| -----:|
-| .RData   | Table_4 | Basic parameter tuning for each classification and machine learning algorithms annd Confusion Matrix for Table 4  |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| .RData   | Table-4 & Table-5 | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
+| .R | Codes | codes In R for repeat the analysis from the original data |
+| .csv | Data | Tables |
 
 
 
