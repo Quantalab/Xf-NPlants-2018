@@ -22,7 +22,7 @@ The codes and data provided in the repository are the following:
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 ___
 
-### .R Files
+### .R Files 
 
 To recreate the results, run the commands with the .R extension placed on the [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this, download the repository, and then open an R session with working directory set to the root of the project.
 
