@@ -7,7 +7,7 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 The article will be available at the following address once it is published.
 
-For access to the source codes, see files with .R extension:</b>
+For access to the source codes, see files with .R extension placed on [codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) folder :</b>
 
 <b>Analysis1.R </b>
 <br/> 
