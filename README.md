@@ -10,25 +10,24 @@ The article will be available at the following address once it is published.
 
 ### Instructions
 
-The codes and data provided in the repository is composed by three types of files:
+The codes and data provided in the repository are composed by three types of files:
  
 | File | Folder | Type |
 | ------------- |:-------------| -----|
-| **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
+
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
 | **.csv** | [Data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data) | Tables |
-
+| **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
 
 ### .R Files
 
-To recreate the results, run the commands with the .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this download this repository, and then open an R session with working directory set to the root of the project.
+To recreate the results, run the commands with the .R extension placed on the [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this, download the complete repository, and then open an R session with working directory set to the root of the project.
 
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
 ```
 The code reproduces the confusion matrix of the supplementary Table 4.
 ```
-
 <b>[Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) </b><br/>
 
 ```
@@ -57,6 +56,9 @@ vs qPCR tests at two spatial scales:
  - At parcel level (Figure 5).
  - At orchard level (table 6).
 ```
+### Raw data
+
+For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
 
 ### .RData Files
 
@@ -68,23 +70,17 @@ Prior to running the .RData (as executable file)  you need to install R sofware.
 ```
 C:/Data_NaturePlants
 ```
-The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files contains the confusion matrix of each classification and machine learning algorithms.
-
-
 Once the .RData file is executed, type the following bold commands to see the following:
- 
 ````
 i.e: type "results_train" to see the Confusion Matrix of trainning data set
 ````
 General setting (Data):
- 
 ````
 dataset --> "train data"
 dataset_test --> "test data set"
 predictors --> "Inputs of each model
 ````
 Classification and machine learning algorithms:
-
 ````
 The basic parameter tuning for the support vector machine (SVM)
 fitControl --> "Base parameter tuning"
@@ -115,13 +111,9 @@ results_train --> "Confusion Matrix and Statistics for training data set"
 results_test  --> "Confusion Matrix and Statistics for testing data set"
 ````
 
-### Raw data
-
-For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
-
-
 ### Contact information
 
-Contact  pablo.zarco@csic.es for any further information.
+Contact pablo.zarco@csic.es for any further information.
 
 This repository follows the principles of reproducible research (Peng, 2011).
+
