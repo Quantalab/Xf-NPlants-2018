@@ -146,3 +146,10 @@ Contact pablo.zarco@ec.europa.eu for any further information.
 This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
 
 When using the [raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data), please cite the original publication.
+
+___
+
+### Acknowledgments
+
+We thank Z.G. Cerovic, J.Flexas, F.Morales, and P.Martín for scientific discussions, [QuantaLab-IAS-CSIC](http://quantalab.ias.csic.es/) for laboratory assistance, and G.Altamura, A.Ceglie, and D.Tavano for field support. The study was funded by the European Union’s Horizon 2020 research and innovation programme through grant agreements [POnTE (635646)](https://www.ponteproject.eu/about/overview/) and [XF-ACTORS (727987)](http://www.xfactorsproject.eu/). The views expressed are purely those of the writers and may not in any circumstance be regarded as stating an official position of the European Commission.
+
