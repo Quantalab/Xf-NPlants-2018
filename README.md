@@ -21,7 +21,7 @@ The codes and data provided in the repository is composed by three types of file
 
 ### .R Files
 
-For access to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
+To recreate the results, run the commands with the .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes). To achieve this download this repository, and then open an R session with working directory set to the root of the project.
 
 <b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
