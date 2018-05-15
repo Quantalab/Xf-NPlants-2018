@@ -1,4 +1,4 @@
-# Data and code for the Xylella fastidiosa remote sensing study
+# Codes and data for the Xylella fastidiosa remote sensing study
 ## Nature Plants 2018
 
 This repository contains code needed to reproduce the article:
