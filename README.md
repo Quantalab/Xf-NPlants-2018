@@ -43,13 +43,13 @@ and machine learning algorithms described in the article.
 This code is valids for the Case B: Initial Xf-symptoms (IN, DS=1) vs. advanced Xf-symptoms (AD,DS = 2 3 and 4) 
 severity levels. 
 ```
-<b>Note:</b> Codes [Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) and [Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) reproduce the article spliting the data into two data sets:
+<b>Note:</b> Codes [Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) and [Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) split the data set according to two criterias:
 <br>
- - 80% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 20% for testing  the model.
+ - the training sample (TR), containing 80% of the data collected over two years for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 20% for testing  the model.
 
- - 90% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
+ - the training sample (TR), containing 90% of the data collected over two years for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
  
-Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. In R [codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes), the procedure to install packages is also indicated. To install the packages, open an R session and execute the following commands:
+Prior to running the scripts, you may need to install the appropriate packages, all available on the CRAN repository. In R [codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes), the procedure to install packages is also indicated. To install the packages, open an R session and execute the following commands:
  
 ```
 if (!require("fmsb")) { install.packages("fmsb"); require("fmsb") }  ### VIF analysis
@@ -68,7 +68,7 @@ vs qPCR tests at two spatial scales:
  - At orchard level (table 6).
  
 The code generates 50 non-linear SVM classification models using a radial basis function and leave one out cross 
-validation (LOOCV). Then, the codes used the SVM predictions to generates a stochastic gradient boosting machine to 
+validation (LOOCV). Then, the code uses the SVM predictions to generates a stochastic gradient boosting machine to 
 test the remote sensing-based PSFT model at parcel and orchard level. 
 ```
 <b>[ VIF-function-R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/vif_function.r)</b><br/>
