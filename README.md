@@ -135,7 +135,7 @@ model_lda --> "The LDA model"
 Confusion Matrix:
 ````
 results_train --> "Confusion Matrix and statistics for training data set"
-results_test  --> "Confusion Matrix and statistics for testing data set"
+results_test  --> "Confusion Matrix and statistics for testing data set" 
 ````
 ___
 
