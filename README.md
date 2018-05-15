@@ -1,5 +1,5 @@
 # Codes and data for the <i>Xylella</i> fastidiosa remote sensing study
-## Nature Plants 2018 
+### Nature Plants 2018 
 
 This repository contains code needed to reproduce the article:
 
@@ -8,16 +8,18 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 The article will be available at the following address once it is published.
 
 
+### Instructions
 
-| Files | folder | Type |
+The codes and data provided in the repository is composed by three types of files:
+ 
+| File | Folder | Type |
 | ------------- |:-------------| -----|
 | **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
 | **.csv** | [Data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data) | Tables |
 
 
-
-## Instructions
+### .R Files
 
 For access to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
 
@@ -55,10 +57,6 @@ vs qPCR tests at two spatial scales:
  - At parcel level (Figure 5).
  - At orchard level (table 6).
 ```
-##
-
-For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
-
 
 ### .RData Files
 
@@ -117,6 +115,9 @@ results_train --> "Confusion Matrix and Statistics for training data set"
 results_test  --> "Confusion Matrix and Statistics for testing data set"
 ````
 
+### Raw data
+
+For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
 
 
 ### Contact information
