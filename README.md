@@ -103,39 +103,40 @@ i.e: type "fitControl" to see the parameter tuning for this
 ````
 General setting (Data):
 ````
-dataset --> "train data"
-dataset_test --> "test data set"
-predictors --> "Inputs of each model
+"dataset" --> training data set
+"dataset_test" --> test data set
+"predictors" --> Inputs of each model
 ````
 Classification and machine learning algorithms:
 ````
 The basic parameter tuning for the support vector machine (SVM)
-fitControl --> "Base parameter tuning" 
-tobj -->  "The generic function tunes hyperparameters of statistical methods using a specific grid" 
-gg --> "gamma parameter needed for all kernels" 
-cc --> "cost of constraints violation"
-fitControl --> "Base parameter tuning"
-model_svm  --> "The SVM model"
+
+"fitControl" --> Base parameter tuning
+"tobj" -->  The generic function tunes hyperparameters of statistical methods using a specific grid
+"gg" --> gamma parameter needed for all kernels
+"cc" --> cost of constraints violation
+"fitControl" --> Base parameter tuning
+"model_svm"  --> The SVM model
 
 The basic parameter tuning for the Neural network (NN) with the best tune parameters for 500 iterations
 
-nnet.grid --> "The parameter tuning grid"
-nnet.fit  --> "The parameter tuning fit"
-size  --> "The parameter tuning size"
-data.nnet <-- "Fit single-hidden-layer neural network, possibly with skip-layer connections"
-best.value  --> "Best parameter tuning of 500 iterations"
-aux.nnet  --> "aux.nnet of 500 iterations"
-data.nnet --> "TThe NN model"
+"nnet.grid" --> The parameter tuning grid
+"nnet.fit"  --> *The parameter tuning fit*
+"size"  --> The parameter tuning size
+"data.nnet" <-- Fit single-hidden-layer neural network, possibly with skip-layer connections
+"best.value"  --> Best parameter tuning of 500 iterations
+"aux.nnet"  --> aux.nnet of 500 iterations
+"data.nnet" --> TThe NN model
 
 The basic parameter tuning for linear discriminant analysis (LDA)
 
-fitControl --> "Base parameter tuning" (only for SVM and LDA)
-model_lda --> "The LDA model"
+"fitControl" --> Base parameter tuning (only for SVM and LDA)
+"model_lda" --> The LDA model
 ````
 Confusion Matrix:
 ````
-results_train --> "Confusion Matrix and statistics for training data set"
-results_test  --> "Confusion Matrix and statistics for testing data set" 
+"results_train" --> Confusion Matrix and statistics for training data set
+"results_test"  --> "Confusion Matrix and statistics for test data set"
 ````
 ___
 
