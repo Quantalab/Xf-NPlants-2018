@@ -9,13 +9,13 @@ The article will be available at the following address once it is published.
 
 For access to the source codes, see files with .R extension placed on [codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) folder :</b>
 
-<b>[Analysis1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
+<b>[Analysis-1.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis1.R) </b>
 <br/> 
 ```
 The code reproduces the confusion matrix of the supplementary Table 4.
 ```
 
-<b>[Analysis2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) </b><br/>
+<b>[Analysis-2.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis2.R) </b><br/>
 
 ```
 The code reproduces the confusion matrix of the supplementary Table 5.
