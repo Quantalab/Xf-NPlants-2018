@@ -117,3 +117,4 @@ Contact pablo.zarco@csic.es for any further information.
 
 This repository follows the principles of reproducible research (Peng, 2011).
 
+When using the [raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data), please cite the original publication.
