@@ -14,7 +14,6 @@ The codes and data provided in the repository are composed by three types of fil
  
 | File | Folder | Type |
 | ------------- |:-------------| -----|
-
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
 | **.csv** | [Data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data) | Tables |
 | **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
