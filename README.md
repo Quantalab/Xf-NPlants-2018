@@ -48,8 +48,13 @@ vs qPCR tests at two spatial scales:
 
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
 
+As consecuence of the random selection procedure of data, In order to reproduce exactly the statistical accuracy yielded in Table 4 and Table 5, You will need to use the following .RData files for [Table 4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table 5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4). 
 
-As consecuence of the To reporoduct exactly the Table 4 and Table 5 use the following .RData to the source codes, see files with .R extension placed on [codes folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes):</b>
+The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files conteins the confusion matrix of each classification and machine learning algorithms.
+
+Prior to running the .RData  you need to install R sofware.Next,  download  the file and put it in the following path:
+
+ C:/Data_NaturePlants
 
 
 Contact  pablo.zarco@csic.es for any further information.
