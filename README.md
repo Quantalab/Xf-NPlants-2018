@@ -37,7 +37,7 @@ if (!require("e1071")) { install.packages("e1071"); require("e1071") }  ### SVM 
 if (!require("nnet")) { install.packages("nnet"); require("nnet") }  ### NNE model
 if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC analysis
 ```
-<b>[Analysis3.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis3.R)</b><br/>
+<b>[Analysis-3.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis3.R)</b><br/>
 
 ```
 The code reproduces the confusion matrix between the field evaluation and remote sensing predictions 
