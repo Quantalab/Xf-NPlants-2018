@@ -7,7 +7,6 @@ Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernán
 
 The article will be available at the following address once it is published.
 
-##
 
 ## Instructions
 
@@ -47,6 +46,7 @@ vs qPCR tests at two spatial scales:
  - At parcel level (Figure 5).
  - At orchard level (table 6).
 ```
+##
 
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
 
