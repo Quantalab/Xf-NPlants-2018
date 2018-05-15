@@ -37,8 +37,8 @@ This code is valids for the Case A: asymptomatic (AS) vs. symptomatic trees (AF;
 
 ```
 The code reproduces the confusion matrix of the supplementary Table 5. Similar to previous R code, the code splits
-the data set (training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the 
-classification and machine learning algorithms described in the article.
+the data set (training and test data), executes the VIF, Wilks.lambda and ROC analylsis and run the classification 
+and machine learning algorithms described in the article.
 
 This code is valids for the Case B: Initial Xf-symptoms (IN, DS=1) vs. advanced Xf-symptoms (AD,DS = 2 3 and 4) 
 severity levels. 
