@@ -56,9 +56,9 @@ Prior to running the scripts, you may need to install the appropriate packages, 
 ```
 if (!require("fmsb")) { install.packages("fmsb"); require("fmsb") }  ### VIF analysis
 if (!require("klaR")) { install.packages("klaR"); require("klaR") }  ### Wilks.lambda
-if (!require("caret")) { install.packages("caret"); require("caret") }  ###  Partition data set and model LDA
+if (!require("caret")) { install.packages("caret"); require("caret") }  ###  Partition data set and LDA model 
 if (!require("e1071")) { install.packages("e1071"); require("e1071") }  ### SVM model
-if (!require("nnet")) { install.packages("nnet"); require("nnet") }  ### NNE model
+if (!require("nnet")) { install.packages("nnet"); require("nnet") }  ### NN model
 if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC analysis
 ```
 <b>[Analysis-3.R](https://github.com/Quantalab/Xf-NPlants-2018/blob/master/codes/Analysis3.R)</b><br/>
