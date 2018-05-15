@@ -101,7 +101,7 @@ Once the .RData file is executed,The R session will be opened it, Then type ls()
 i.e: type "results_train" to see the Confusion Matrix of trainning data set
 i.e: type "fitControl" to see the parameter tuning for this
 ````
-General setting (Data):
+Data set and inputs used in the classification model:
 ````
 "dataset" --> training data set
 "dataset_test" --> test data set
@@ -121,7 +121,7 @@ The basic parameter tuning for the support vector machine (SVM)
 The basic parameter tuning for the Neural network (NN) with the best tune parameters for 500 iterations
 
 "nnet.grid" --> The parameter tuning grid
-"nnet.fit"  --> *The parameter tuning fit*
+"nnet.fit"  --> The parameter tuning fit
 "size"  --> The parameter tuning size
 "data.nnet" <-- Fit single-hidden-layer neural network, possibly with skip-layer connections
 "best.value"  --> Best parameter tuning of 500 iterations
