@@ -5,7 +5,7 @@ This repository contains the codes and data needed to reproduce the article:
 
 *Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A.,* <b>Pre-visual <i>Xylella fastidiosa</i> infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
 
-The article will be available at the following address once it is published.
+The article will be available at the following [address] (https://www.nature.com/nplants/) once it is published.
 ___
 
 ### Instructions
@@ -90,7 +90,7 @@ cc --> "cost of constraints violation"
 fitControl --> "Base parameter tuning"
 model_svm  --> "Support vector machine (SVM)"
 
-The basic parameter tuning for For the Neural network (NN) with the best tune parameters for 500 iterations
+The basic parameter tuning for the Neural network (NN) with the best tune parameters for 500 iterations
 
 nnet.grid --> "The parameter tuning grid"
 nnet.fit  --> "The parameter tuning fit"
@@ -113,7 +113,7 @@ results_test  --> "Confusion Matrix and Statistics for testing data set"
 
 ### Contact information
 
-Contact pablo.zarco@csic.es for any further information.
+Contact pablo.zarco@ec.europa.eu for any further information.
 
 This repository follows the principles of reproducible research (Peng, 2011).
 
