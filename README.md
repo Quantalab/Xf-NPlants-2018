@@ -98,7 +98,7 @@ C:/Data_NaturePlants (reccommended)
 Once the .RData file is executed,The R session will be opened it, Then type ls() to see the objects included in the selected .RData file. The next step is type the name of listed objects as follow:
 
 ````
-i.e: type "results_train" to see the Confusion Matrix of trainning data set
+i.e: type "results_train" to see the Confusion Matrix of training data set
 i.e: type "fitControl" to see the parameter tuning for this
 ````
 Data set and inputs used in the classification model:
