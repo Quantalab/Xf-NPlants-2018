@@ -141,7 +141,14 @@ ___
 
 ### Contact information
 
-Contact pablo.zarco@ec.europa.eu for any further information.
+[Pablo J. Zarco-Tejada](https://ec.europa.eu/jrc/en/person/pablo-zarco-tejada)
+pablo.zarco@ec.europa.eu
+
+European Commission
+Joint Research Centre (JRC)
+Institute for Environment and Sustainability (IES)
+Forest Resources and Climate Unit (JRC.IES.H.3)
+
 
 This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
 
@@ -151,5 +158,5 @@ ___
 
 ### Acknowledgments
 
-We thank Z.G. Cerovic, J.Flexas, F.Morales, and P.Martín for scientific discussions, [QuantaLab-IAS-CSIC](http://quantalab.ias.csic.es/) for laboratory assistance, and G.Altamura, A.Ceglie, and D.Tavano for field support. The study was funded by the European Union’s Horizon 2020 research and innovation programme through grant agreements [POnTE (635646)](https://www.ponteproject.eu/about/overview/) and [XF-ACTORS (727987)](http://www.xfactorsproject.eu/). The views expressed are purely those of the writers and may not in any circumstance be regarded as stating an official position of the European Commission.
+We thank Z.G. Cerovic, J.Flexas, F.Morales, and P.Martín for scientific discussions, [QuantaLab-IAS-CSIC](http://quantalab.ias.csic.es/) for laboratory assistance, and G.Altamura, A.Ceglie, and D.Tavano for field support. The study was funded by the [European Union’s Horizon 2020](https://ec.europa.eu/programmes/horizon2020/) research and innovation programme through grant agreements [POnTE (635646)](https://www.ponteproject.eu/about/overview/) and [XF-ACTORS (727987)](http://www.xfactorsproject.eu/). The views expressed are purely those of the writers and may not in any circumstance be regarded as stating an official position of the European Commission.
 
