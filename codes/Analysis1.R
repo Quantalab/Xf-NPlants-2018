@@ -23,8 +23,8 @@ if (!require("pROC")) { install.packages("pROC"); require("pROC") }  ### ROC AUC
 # set workspace
 
 setwd ("choose a directory ...")
-path_data<-("Data/")
-path_out<-("out/")
+path_data<-("data/")
+path_out<-("out/") ### choose a directory ...
 
 ######################################################################
 ### CASE A : Asympt. (0) Sympt. (1) (1-2-3-4) ### SEV_A 
@@ -37,7 +37,7 @@ xi<-0.8 ## 0.8 or 0.9
         #0.8 containing 80% of the data collected over two years (2016 and 2017) for trainining the model and 20% for testing the model
         # 0.9 containing 90% of the data collected over two years (2016 and 2017) for trainining the model and 10% for testing the model
 
-data <-read.table("Data/1-Data_Global_model_Xf.csv", header=T, sep=",")
+data <-read.table("data/1-Data_Global_model_Xf.csv", header=T, sep=",")
 index <- createDataPartition(data$SEV_A, p = xi, list = F)
 data.training<- data[index, ]
 data.testing  <- data[-index, ]
@@ -48,7 +48,7 @@ cases_var<-c("SEV_A","SEV_B")
 ######################
 
 # 2. VIF analysis -------------------------------------------------------
-source("vif_function.R")
+source("codes/vif_function.R")
 ### Spectral indices 
 pred_ind<-names(data.training[,5:74]) ##
 pred_ind_rtm<-c(names(data.training[,5:74]),'Cab','Car','Ant','LAI','LIDFa','Fi') ### inputs from RTM inversion
@@ -162,9 +162,9 @@ for (k in c(1:3)){
   
   ################################
   ######################
-  # 3.2. NNE Model  -------------------------------------------------------
+  # 3.2. NN Model  -------------------------------------------------------
 
-  print(paste('NNE for ',names_to_include[[k]],sep=""))
+  print(paste('NN for ',names_to_include[[k]],sep=""))
   nnet.grid <- expand.grid(.decay = seq(0,0.1,by=0.01), .size = seq(1,10,by=1))
   nnet.fit <- train(fmla, data = dataset,method = "nnet", maxit = 50, tuneGrid = nnet.grid) 
   size<-getElement(nnet.fit,"bestTune")$size
