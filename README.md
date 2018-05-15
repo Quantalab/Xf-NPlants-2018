@@ -142,12 +142,12 @@ ___
 ### Contact information
 
 [Pablo J. Zarco-Tejada](https://ec.europa.eu/jrc/en/person/pablo-zarco-tejada)
-pablo.zarco@ec.europa.eu
 
-European Commission
-Joint Research Centre (JRC)
-Institute for Environment and Sustainability (IES)
-Forest Resources and Climate Unit (JRC.IES.H.3)
+<br>email: pablo.zarco@ec.europa.eu
+<br>European Commission
+<br>[Joint Research Centre (JRC)](https://ec.europa.eu/jrc/en)
+<br>Institute for Environment and Sustainability (IES)
+<br>Forest Resources and Climate Unit (JRC.IES.H.3)
 
 
 This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
