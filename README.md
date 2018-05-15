@@ -20,6 +20,7 @@ The codes and data provided in the repository are the following:
 | **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_5) | Basic parameter tuning for each machine learning algorithms and Confusion Matrix|
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
+___
 
 ### .R Files
 
@@ -77,9 +78,12 @@ test the remote sensing-based PSFT model at parcel and orchard level.
 A VIF function for stepwise variable selection.
 
 ```
+___
+
 ### Raw data
 
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data):</b>
+___
 
 ### .RData Files
 
@@ -133,6 +137,7 @@ Confusion Matrix:
 results_train --> "Confusion Matrix and statistics for training data set"
 results_test  --> "Confusion Matrix and statistics for testing data set"
 ````
+___
 
 ### Contact information
 
