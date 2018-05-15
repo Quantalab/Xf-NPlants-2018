@@ -40,7 +40,7 @@ The code reproduces the confusion matrix of the supplementary Table 5.
 
  - 90% of the data collected over two years (2016 and 2017) for each disease severity class selected at random, and the testing or validation sample (TS), with the remaining 10% for testing  the model.
  
-Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. On each code, the procedure to install packages is also indicated. To install the needed packages, open an R session and execute the following line of code:
+Prior to running the scripts you may need to install the appropriate packages, all available on the CRAN repository. In R codes, the procedure to install packages is also indicated. To install the packages, open an R session and execute the following commands:
  
 ```
 if (!require("fmsb")) { install.packages("fmsb"); require("fmsb") }  ### VIF analysis
@@ -66,7 +66,7 @@ For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NP
 
 In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table-4 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) and [Table-5 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table_4) respectively. 
 
-The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. The files also save the main functions and the parameter tuning performed during the classification methods. In addtion, the two split data sets (train and test data), the model predictions, the model configuration and the confusion matrix is also stored in the .RData files.
+The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. The files also save the main functions and the parameter tuning performed during the classification methods. In addition, the data sets (training and test data), the model predictions, the model configuration and the confusion matrix is also stored in the .RData files.
 
 Prior to running the .RData (as executable file)  you need to install R sofware. Next, download the file and put it in the following path:
 ```
