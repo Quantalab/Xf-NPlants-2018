@@ -68,23 +68,20 @@ Once the .RData file is executed, type the following bold commands to see the fo
  
 ````
 i.e: type "results_train" to see the Confusion Matrix of trainning data set
-
 ````
 General setting (Data):
  
 ````
 dataset --> "train data"
 dataset_test --> "test data set"
-
 predictors --> "Inputs of each model
-
 ````
 Classification and machine learning algorithms:
 
 ````
 The basic parameter tunning for the support vector machine (SVM)
 fitControl --> "Base parameter tunning"
-tobj -->  "The generic function tunes hyperparameters of statistical methods using a grid search over supplied parameter ranges" 
+tobj -->  "The generic function tunes hyperparameters of statistical methods using a specific grid" 
 gg --> "gamma parameter needed for all kernels" 
 cc --> "cost of constraints violation"
 fitControl --> "Base parameter tunning"
@@ -104,7 +101,6 @@ The basic parameter tunning for linear discriminant analysis (LDA)
 
 fitControl --> "Base parameter tunning"
 model_lda --> "linear discriminant analysis  (LDA)"
-
 ````
 Confusion Matrix:
 ````
