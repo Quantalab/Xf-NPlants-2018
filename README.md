@@ -61,19 +61,53 @@ Prior to running the .RData (as executable file)  you need to install R sofware.
 ```
 C:/Data_NaturePlants
 ```
-The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files conteins the confusion matrix of each classification and machine learning algorithms.
+The .RData files contain the statistical procedure used on classification and machine learning algorithms to classify disease incidence and severity using the support vector machine (SVM), neural network (NN) and linear discriminant analysis (LDA). Furthermore, the .RData  files contains the confusion matrix of each classification and machine learning algorithms.
 
-````{r echo=FALSE} 
+
+The structure of each .RData is:
+General setting  and  basic parameter tunning 
+ 
+````
+dataset --> "train data"
+dataset_test --> "test data set"
+
+predictors --> "Inputs of each model
+
+````
+
+Classification and machine learning algorithms
+
+````
+The basic parameter tunning for the support vector machine (SVM)
 fitControl --> "Base parameter tunning"
-model_svm --> "support vector machine (SVM)"
-model_svm --> "Neural network (NN) "
-model_svm --> "support vector machine (SVM)"
+tobj -->  "The generic function tunes hyperparameters of statistical methods using a grid search over supplied parameter ranges" 
+gg --> "gamma parameter needed for all kernels" 
+cc --> "cost of constraints violation"
+fitControl --> "Base parameter tunning"
+model_svm  --> "Support vector machine (SVM)"
 
-## Confusion Matrix
+The basic parameter tunning for For the Neural network (NN) with the best tune parameters for 500 iterations
+
+nnet.grid --> "The parameter tuning grid"
+nnet.fit  --> "The parameter tuning fit"
+size  --> "The parameter tuning size"
+data.nnet <-- "Fit single-hidden-layer neural network, possibly with skip-layer connections"
+best.value  --> "Best parameter tunning of 500 iterations"
+aux.nnet  --> "aux.nnet of 500 iterations"
+data.nnet --> "Neural network (NN)"
+
+The basic parameter tunning for linear discriminant analysis (LDA)
+
+fitControl --> "Base parameter tunning"
+model_lda --> "linear discriminant analysis  (LDA)"
+
+````
+Confusion Matrix
+````
 results_train --> "Confusion Matrix and Statistics for training data set"
 results_test  --> "Confusion Matrix and Statistics for testing data set"
 fitControl --> "Base parameter tunning"
-```
+````
 
 
 ### Contact information
