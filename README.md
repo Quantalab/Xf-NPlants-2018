@@ -143,15 +143,13 @@ ___
 ### Contact information
 
 [Pablo J. Zarco-Tejada](https://ec.europa.eu/jrc/en/person/pablo-zarco-tejada)
+
+<br>European Commission (EC), [Joint Research Centre (JRC)](https://ec.europa.eu/jrc/en)
+<br>Directorate D – Sustainable Resources
 <br>email: pablo.zarco@ec.europa.eu
-<br>European Commission
-<br>[Joint Research Centre (JRC)](https://ec.europa.eu/jrc/en)
-<br>Institute for Environment and Sustainability (IES)
-<br>Forest Resources and Climate Unit (JRC.IES.H.3)
 
 ## 
 This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
-
 When using the [raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Data), please cite the original publication.
 
 ___
