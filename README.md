@@ -143,7 +143,6 @@ ___
 ### Contact information
 
 [Pablo J. Zarco-Tejada](https://ec.europa.eu/jrc/en/person/pablo-zarco-tejada)
-
 <br>European Commission (EC), [Joint Research Centre (JRC)](https://ec.europa.eu/jrc/en)
 <br>Directorate D – Sustainable Resources
 <br>email: pablo.zarco@ec.europa.eu
