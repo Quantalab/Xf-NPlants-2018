@@ -1,7 +1,6 @@
 
 # Data for the <i>Xylella fastidiosa</i> remote sensing study
 ### Nature Plants 2018 
-ff
 This repository contains the codes and data needed to reproduce the article:
 
 *Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A.,* <b>Pre-visual <i>Xylella fastidiosa</i> infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
