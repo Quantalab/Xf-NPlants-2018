@@ -6,7 +6,7 @@ This repository contains the codes and data needed to reproduce the article:
 
 *Zarco-Tejada, P.J., Camino, C., Beck, P.S.A., Calderon, R., Hornero, A., Hernández-Clemente, R., Kattenborn, T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., Saponari, M., Navas-Cortes, J.A.,* <b>Pre-visual <i>Xylella fastidiosa</i> infection revealed in spectral plant-trait alterations, Nature Plants (2018)</b>
 
-DOI:10.1038/s41477-018-0189-7
+**DOI:*10.1038/s41477-018-0189-7*
 
 The article will be available at the following [address](https://www.nature.com/nplants/) once it is published.
 ___
