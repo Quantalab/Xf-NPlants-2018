@@ -21,7 +21,7 @@ The codes and data provided in the repository are the following:
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 
-<b>Update:</b> Trees misclasified in the original Xf-database used for the publication of the manuscript have been updated (04/Feb/2020) in the file available here, which includes a new field ("Year") to separate the evaluated trees by years. Differences in the results obtained when using the updated database are minor (less than 3% differences for the overall accuracy obtained with PSFT and the SVM model). Plant trait importance and the major conclusions published in the manuscript remain unchanged.
+<b>Update:</b> Trees misclassified in the original Xf-database used for the publication of the manuscript have been updated (04/Feb/2020) in the file available here, which includes a new field ("Year") to separate the evaluated trees by years. Differences in the results obtained when using the updated database are minor (less than 3% differences for the overall accuracy obtained with PSFT and the SVM model). Plant trait importance and the major conclusions published in the manuscript remain unchanged.
 ___
 
 ### .R Files 
