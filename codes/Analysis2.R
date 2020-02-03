@@ -7,7 +7,7 @@
 #Saponari, M., Navas-Cortes, J.A., 
 #Pre-visual Xylella fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)
 #################################
-###########
+########### 
 
 ######################################################################################################
 # 1. Loading packages, functions and data -------------------------------------------------------
