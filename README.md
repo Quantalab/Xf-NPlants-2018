@@ -20,7 +20,8 @@ The codes and data provided in the repository are the following:
 | **.csv** | [Raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data) | Tables used in the <i>Xylella fastidiosa</i> remote sensing study|
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
-<b>Update:</b> Some trees were misclassified in the previous table, Those trees have been updated. 
+
+<b>Update:</b> Some trees were misclassified in the original Xf-database. They have been updated. 
 ___
 
 ### .R Files 
