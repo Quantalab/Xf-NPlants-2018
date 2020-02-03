@@ -6,6 +6,7 @@
 #T., Montes-Borrego, M., Susca, L., Morelli, M., Gonzalez-Dugo, V., North, P.R.J., Landa, B.B., Boscia, D., 
 #Saponari, M., Navas-Cortes, J.A., 
 #Pre-visual Xylella fastidiosa infection revealed in spectral plant-trait alterations, Nature Plants (2018)
+##
 #################################
 ###########
 
@@ -32,15 +33,32 @@ path_out<-("out/") ### choose a directory ...
 ###############################################################################
 
 ##Modify the percentage to split the data
+##### By Years
 
-xi<-0.8 ## 0.8 or 0.9
-        #0.8 containing 80% of the data collected over two years (2016 and 2017) for trainining the model and 20% for testing the model
-        # 0.9 containing 90% of the data collected over two years (2016 and 2017) for trainining the model and 10% for testing the model
+data <-read.table("data/1-Data_Global_model_Xf-updated.csv", header=T, sep=",")
+#split database by years
+data_16<-subset(data, YEAR == 2016)
+data_17<-subset(data, YEAR == 2017)
+## Split by years using  80% con un 20%
+ xi_y1=0.80
+index16 <- createDataPartition(data_16$SEV_A, p = xi_y1, list = F)
+index16<-as.vector(index16)
+#   ### Fijar por año y con un 90% para train - 10% para test (2017)
+xi_y2=0.80
+index17 <- createDataPartition(data_17$SEV_A, p = xi_y2, list = F)
+index17<-as.vector(index17)
 
-data <-read.table("data/1-Data_Global_model_Xf.csv", header=T, sep=",")
-index <- createDataPartition(data$SEV_A, p = xi, list = F)
-data.training<- data[index, ]
-data.testing  <- data[-index, ]
+data.training16<- data_16[index16, ]
+data.training17<- data_17[index17, ]
+## union both tables (training)
+data.training<-rbind(data.training16,data.training17)
+dim(data.training)
+## union both tables (testing)
+ data.testing16  <- data_16[-index16, ]
+ data.testing17  <- data_17[-index17, ]
+## union both tables
+ data.testing<-rbind(data.testing16,data.testing17)
+ dim(data.testing)
 
 cases_var<-c("SEV_A","SEV_B")
 
@@ -50,8 +68,8 @@ cases_var<-c("SEV_A","SEV_B")
 # 2. VIF analysis -------------------------------------------------------
 source("codes/vif_function.R")
 ### Spectral indices 
-pred_ind<-names(data.training[,5:74]) ##
-pred_ind_rtm<-c(names(data.training[,5:74]),'Cab','Car','Ant','LAI','LIDFa','Fi') ### inputs from RTM inversion
+pred_ind<-names(data.training[,11:80]) ##
+pred_ind_rtm<-c(names(data.training[,11:80]),'Cab','Car','Ant','LAI','LIDFa','Fi') ### inputs from RTM inversion
 
 ###Selection of spectral indices  VIF values are below 10
 keep.indices.model<-vif_func(data.training[,pred_ind],thresh=10,trace=T)
