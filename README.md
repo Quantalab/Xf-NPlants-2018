@@ -18,7 +18,6 @@ The codes and data provided in the repository are the following:
 | ------------- |:-----------------| -----|
 | **.R** | [Codes](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/codes) | R codes to reproduce the analysis from the original data |
 | **.csv** | [Raw data](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data) | Tables used in the <i>Xylella fastidiosa</i> remote sensing study|
-| **.RData** | [Table-4](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-4) & [Table-5](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-5) | Confusion Matrix, machine learning algorithms, parameter tuning, predictions and data|
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 ___
@@ -86,60 +85,6 @@ ___
 For access to the raw data, see [data folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/data):</b>
 ___
 
-### .RData Files
-
-In order to reproduce exactly the statistical accuracy showed in Table 4 and Table 5, as consecuence of random selection procedure of the data (train and test data), you need to use the .RData files provided on [Table-4 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-4) and [Table-5 folder](https://github.com/Quantalab/Xf-NPlants-2018/tree/master/Table-5) respectively. 
-
-The .RData files contain the workspace enviroment during the classification and machine learning algorithms used in this article. The files also have the main functions and the parameter tuning used during the classification methods. In addition, the data sets (training and test data), the model predictions, the model configuration and the confusion matrix is also stored in the .RData files.
-
-Prior to running the .RData (as executable file)  you need to install R sofware. Next, download the file and put it in the following path:
-```
-C:/Data_NaturePlants (reccommended)
-```
-Once the .RData file is executed,The R session will be opened it, Then type ls() to see the objects included in the selected .RData file. The next step is type the name of listed objects as follow:
-
-````
-i.e: type "results_train" to see the Confusion Matrix of training data set
-i.e: type "fitControl" to see the parameter tuning for this
-````
-Data set and inputs used in the classification model:
-````
-"dataset" --> training data set
-"dataset_test" --> test data set
-"predictors" --> Inputs of each model
-````
-Classification and machine learning algorithms:
-````
-The basic parameter tuning for the support vector machine (SVM)
-
-"fitControl" --> Base parameter tuning
-"tobj" -->  The generic function tunes hyperparameters of statistical methods using a specific grid
-"gg" --> gamma parameter needed for all kernels
-"cc" --> cost of constraints violation
-"fitControl" --> Base parameter tuning
-"model_svm"  --> The SVM model
-
-The basic parameter tuning for the Neural network (NN) with the best tune parameters for 500 iterations
-
-"nnet.grid" --> The parameter tuning grid
-"nnet.fit"  --> The parameter tuning fit
-"size"  --> The parameter tuning size
-"data.nnet" <-- Fit single-hidden-layer neural network, possibly with skip-layer connections
-"best.value"  --> Best parameter tuning of 500 iterations
-"aux.nnet"  --> aux.nnet of 500 iterations
-"data.nnet" --> TThe NN model
-
-The basic parameter tuning for linear discriminant analysis (LDA)
-
-"fitControl" --> Base parameter tuning (only for SVM and LDA)
-"model_lda" --> The LDA model
-````
-Confusion Matrix:
-````
-"results_train" --> Confusion Matrix and statistics for training data set
-"results_test"  --> "Confusion Matrix and statistics for test data set"
-````
-___
 
 ### Contact information
 
