@@ -7,7 +7,7 @@ This repository contains the codes and data needed to reproduce the article:
 
 <b>DOI</b>:10.1038/s41477-018-0189-7
 
-The article will be available at the following [address](https://www.nature.com/nplants/) once it is published.
+The article is available at the following [address](https://www.nature.com/articles/s41477-018-0189-7).
 ___
 
 ### Instructions
@@ -21,7 +21,7 @@ The codes and data provided in the repository are the following:
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 
-<b>Update:</b> Some trees were misclassified in the original Xf-database. They have been updated. A Year field was added to separate each trees by years
+<b>Update:</b> Trees misclasified in the original Xf-database used for the publication of the manuscript have been updated (04/Feb/2020) in the file available here, which includes a new field ("Year") to separate the evaluated trees by years. Differences in the results obtained when using the updated database are minor (less than 3% differences for the overall accuracy obtained with PSFT and the SVM model). Plant trait importance and the major conclusions published in the manuscript remain unchanged.
 ___
 
 ### .R Files 
@@ -90,10 +90,9 @@ ___
 
 ### Contact information
 
-[Pablo J. Zarco-Tejada](https://ec.europa.eu/jrc/en/person/pablo-zarco-tejada)
-<br>European Commission (EC), [Joint Research Centre (JRC)](https://ec.europa.eu/jrc/en)
-<br>Directorate D – Sustainable Resources
-<br>email: pablo.zarco@ec.europa.eu
+[Pablo J. Zarco-Tejada](https://scholar.google.com/citations?user=xpTVhawAAAAJ&hl=es&oi=ao)
+<br>email: pablo.zarco@gmail.com
+http://quantalab.ias.csic.es/
 
 ## 
 This repository follows the principles of reproducible research [(Peng, 2011)](http://science.sciencemag.org/content/334/6060/1226).
