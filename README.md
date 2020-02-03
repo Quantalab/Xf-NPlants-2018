@@ -21,7 +21,7 @@ The codes and data provided in the repository are the following:
 
 <b>Note:</b> All analyses were done in [R](https://cran.r-project.org/). 
 
-<b>Update:</b> Some trees were misclassified in the original Xf-database. They have been updated. 
+<b>Update:</b> Some trees were misclassified in the original Xf-database. They have been updated. A Year field was added to separate each trees by years
 ___
 
 ### .R Files 
